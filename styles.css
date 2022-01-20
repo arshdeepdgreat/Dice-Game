@@ -3,7 +3,9 @@
   margin: auto;
   text-align: center;
 }
-
+a{
+text-decoration: none;
+}
 .dice {
   text-align: center;
   display: inline-block;
