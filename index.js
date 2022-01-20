@@ -16,5 +16,7 @@ else if(random1<random2){
     document.querySelector("h1").innerHTML = "Player 2 wins ";
 }
 else{
-    document.querySelector("h1").innerHTML = "Draw";
+    //document.querySelector("h1").innerHTML = "Draw";
+    // to make it better lets rerun the logic
+    location.reload(true);
 }
