@@ -8,3 +8,13 @@ img1.setAttribute("src" , sr1);
 
 var img2=document.querySelectorAll("img")[1];
 img2.setAttribute("src" , sr2);
+
+if(random1>random2){
+    document.Selector("h1").innerHTML = "Player 1 wins ";
+}
+else if(random1<random2){
+    document.Selector("h1").innerHTML = "Player 2 wins ";
+}
+else{
+    document.Selector("h1").innerHTML = "Draw";
+}
